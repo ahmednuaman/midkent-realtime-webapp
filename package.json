@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "A real time web app for Mid Kent college students",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
